@@ -25,7 +25,6 @@ After creating a data sample from the HC Corpora data, this sample was cleaned b
 This data sample was then [tokenized](http://en.wikipedia.org/wiki/Tokenization_%28lexical_analysis%29) into so-called [*n*-grams](http://en.wikipedia.org/wiki/N-gram). 
 > In the fields of computational linguistics and probability, an *n*-gram is a contiguous sequence of n items from a given sequence of text or speech. ([Source](http://en.wikipedia.org/wiki/N-gram))
 
-
 Those aggregated bi-,tri- and quadgram term frequency matrices have been transferred into frequency dictionaries.
 
 The resulting data.frames are used to predict the next word in connection with the text input by a user of the described application and the frequencies of the underlying *n*-grams table.
